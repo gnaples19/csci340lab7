@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gnapl\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gnapl\\.nuget\\packages"
+    ]
+  }
+}
