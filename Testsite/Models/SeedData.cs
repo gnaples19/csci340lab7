@@ -26,7 +26,8 @@ namespace Testsite.Models
                         Name = "Fatbob",
                         ReleaseDate = DateTime.Parse("2018-2-12"),
                         Type = "Softtail",
-                        Price = 21000
+                        Price = 21000,
+                        Engine = "Milwaukee-8 107"
                     },
 
                     new Motorcycle
@@ -34,7 +35,8 @@ namespace Testsite.Models
                         Name = "Iron 883 ",
                         ReleaseDate = DateTime.Parse("2017-3-13"),
                         Type = "Sportster",
-                        Price = 12000
+                        Price = 12000,
+                        Engine = "Milwaukee-8 107"
                     },
 
                     new Motorcycle
@@ -42,7 +44,8 @@ namespace Testsite.Models
                         Name = "Sportster S",
                         ReleaseDate = DateTime.Parse("2021-2-23"),
                         Type = "Sportster",
-                        Price = 14999
+                        Price = 14999,
+                        Engine = "Milwaukee-8 107"
                     },
 
                     new Motorcycle
@@ -50,8 +53,9 @@ namespace Testsite.Models
                         Name = "Pan America",
                         ReleaseDate = DateTime.Parse("2021-4-15"),
                         Type = "Semi-Off Road",
-                        Price = 17319
-                    }
+                        Price = 17319,
+                        Engine = "Milwaukee-8 107"
+                    } 
                 );
                 context.SaveChanges();
             }

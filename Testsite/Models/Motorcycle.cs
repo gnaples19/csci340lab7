@@ -16,5 +16,6 @@ namespace Testsite.Models
         public DateTime ReleaseDate { get; set; }
         public string Type { get; set; }
         public int Price { get; set; }
+        public string Engine { get; set; }
     }
 }

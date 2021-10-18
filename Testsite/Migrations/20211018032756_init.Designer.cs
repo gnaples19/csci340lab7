@@ -10,8 +10,8 @@ using Testsite.Data;
 namespace Testsite.Migrations
 {
     [DbContext(typeof(TestsiteContext))]
-    [Migration("20211018003119_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20211018032756_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,6 +27,9 @@ namespace Testsite.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Engine")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");

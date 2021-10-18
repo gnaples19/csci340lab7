@@ -13,9 +13,13 @@
 
 <form>
     <p>
+        <select asp-for="MotorcycleType" asp-items="Model.Types">
+            <option value="">All</option>
+        </select>
         Name: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
+    
 </form>
 
 <table class="table">
@@ -32,6 +36,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Motorcycle[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Motorcycle[0].Engine)
             </th>
             <th></th>
         </tr>
@@ -50,6 +57,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Engine)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

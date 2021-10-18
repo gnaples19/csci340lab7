@@ -10,6 +10,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Testsite.Data.TestsiteContext</WebStackScaffolding_DbContextTypeFullName>
     <_SelectedScaffolderID>ModelBasedCrudRazorPageScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
-    <ShowAllFiles>false</ShowAllFiles>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>
